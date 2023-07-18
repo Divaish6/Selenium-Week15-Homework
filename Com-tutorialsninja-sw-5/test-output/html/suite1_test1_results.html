@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Test</h1>
+<p>
+  Test duration: 142.142s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">Com.tutorialsninja.testsuite.DesktopsTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductAddedToShoppingCartSuccessFully
+      </td>
+  <td class="duration">
+    20.872s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click to see screenshot
+                                <a target = "_blank" href=C:\Users\nisha\IdeaProjects\Com-tutorialsninja-sw-5/test-output/html/verifyProductAddedToShoppingCartSuccessFullyTue_Jul_18_17_55_43_BST_2023.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\nisha\IdeaProjects\Com-tutorialsninja-sw-5/test-output/html/verifyProductAddedToShoppingCartSuccessFullyTue_Jul_18_17_55_43_BST_2023.jpg><img src=C:\Users\nisha\IdeaProjects\Com-tutorialsninja-sw-5/test-output/html/verifyProductAddedToShoppingCartSuccessFullyTue_Jul_18_17_55_43_BST_2023.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException<br/>
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [204ada9f3c9b6ec612bb18126ce32b0b, actions {actions=[org.openqa.selenium.interactions.Sequence@5ea502e0]}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\nisha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52550}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52550/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 204ada9f3c9b6ec612bb18126ce32b0b</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:395)<br />
+              org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:165)<br />
+              org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:322)<br />
+              org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:185)<br />
+              java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)<br />
+              java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)<br />
+              java.util.Iterator.forEachRemaining(Iterator.java:116)<br />
+              java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)<br />
+              java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)<br />
+              java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)<br />
+              java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)<br />
+              java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)<br />
+              java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br />
+              java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)<br />
+              org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:185)<br />
+              org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:322)<br />
+              org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:203)<br />
+              com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)<br />
+              org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:198)<br />
+              org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:322)<br />
+              org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:313)<br />
+              org.openqa.selenium.json.Json.toJson(Json.java:43)<br />
+              org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:256)<br />
+              org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:120)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)<br />
+              org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:585)<br />
+              org.openqa.selenium.interactions.Actions.perform(Actions.java:554)<br />
+              Com.tutorialsninja.utility.Utility.mouseHoverToElementAndClick(Utility.java:259)<br />
+              Com.tutorialsninja.pages.HomePage.SelectShowAllDesktops(HomePage.java:71)<br />
+              Com.tutorialsninja.testsuite.DesktopsTest.verifyProductAddedToShoppingCartSuccessFully(DesktopsTest.java:45)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">java.lang.reflect.InvocationTargetException</a><br />
+        <div class="stackTrace" id="exception-1">
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+                      java.lang.reflect.Method.invoke(Method.java:498)<br />
+                      org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:391)<br />
+                      org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:165)<br />
+                      org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:322)<br />
+                      org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:185)<br />
+                      java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)<br />
+                      java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)<br />
+                      java.util.Iterator.forEachRemaining(Iterator.java:116)<br />
+                      java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)<br />
+                      java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)<br />
+                      java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)<br />
+                      java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)<br />
+                      java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)<br />
+                      java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br />
+                      java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)<br />
+                      org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:185)<br />
+                      org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:322)<br />
+                      org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:203)<br />
+                      com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)<br />
+                      org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:198)<br />
+                      org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:322)<br />
+                      org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:313)<br />
+                      org.openqa.selenium.json.Json.toJson(Json.java:43)<br />
+                      org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:256)<br />
+                      org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:120)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)<br />
+                      org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:585)<br />
+                      org.openqa.selenium.interactions.Actions.perform(Actions.java:554)<br />
+                      Com.tutorialsninja.utility.Utility.mouseHoverToElementAndClick(Utility.java:259)<br />
+                      Com.tutorialsninja.pages.HomePage.SelectShowAllDesktops(HomePage.java:71)<br />
+                      Com.tutorialsninja.testsuite.DesktopsTest.verifyProductAddedToShoppingCartSuccessFully(DesktopsTest.java:45)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+                      java.lang.reflect.Method.invoke(Method.java:498)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+                      org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+                      org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+                      org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+                      org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+                      java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+                      org.testng.TestRunner.run(TestRunner.java:603)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+                      org.testng.TestNG.run(TestNG.java:1060)<br />
+                      com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+                      com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Show AllDesktops&quot;}<br/>
+&nbsp; (Session info: chrome=114.0.5735.199)<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [204ada9f3c9b6ec612bb18126ce32b0b, findElement {using=link text, value=Show AllDesktops}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\nisha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52550}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52550/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 204ada9f3c9b6ec612bb18126ce32b0b</a><br />
+        <div class="stackTrace" id="exception-2">
+                      sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+                      sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+                      sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+                      java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+                      org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)<br />
+                      org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)<br />
+                      org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)<br />
+                      org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
+                      org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br />
+                      org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)<br />
+                      org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br />
+                      com.sun.proxy.$Proxy16.getWrappedElement(Unknown Source)<br />
+                      org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:275)<br />
+                      org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:224)<br />
+                      org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)<br />
+                      org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+                      java.lang.reflect.Method.invoke(Method.java:498)<br />
+                      org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:391)<br />
+                      org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:165)<br />
+                      org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:322)<br />
+                      org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:185)<br />
+                      java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)<br />
+                      java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)<br />
+                      java.util.Iterator.forEachRemaining(Iterator.java:116)<br />
+                      java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)<br />
+                      java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)<br />
+                      java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)<br />
+                      java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)<br />
+                      java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)<br />
+                      java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br />
+                      java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)<br />
+                      org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:185)<br />
+                      org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:322)<br />
+                      org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:203)<br />
+                      com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)<br />
+                      org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:198)<br />
+                      org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:322)<br />
+                      org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:313)<br />
+                      org.openqa.selenium.json.Json.toJson(Json.java:43)<br />
+                      org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:256)<br />
+                      org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:120)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)<br />
+                      org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:585)<br />
+                      org.openqa.selenium.interactions.Actions.perform(Actions.java:554)<br />
+                      Com.tutorialsninja.utility.Utility.mouseHoverToElementAndClick(Utility.java:259)<br />
+                      Com.tutorialsninja.pages.HomePage.SelectShowAllDesktops(HomePage.java:71)<br />
+                      Com.tutorialsninja.testsuite.DesktopsTest.verifyProductAddedToShoppingCartSuccessFully(DesktopsTest.java:45)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+                      java.lang.reflect.Method.invoke(Method.java:498)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+                      org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+                      org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+                      org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+                      org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+                      java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+                      org.testng.TestRunner.run(TestRunner.java:603)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+                      org.testng.TestNG.run(TestNG.java:1060)<br />
+                      com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+                      com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">Com.tutorialsninja.testsuite.MyAccountTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserRegisterAccountSuccessfully
+      </td>
+  <td class="duration">
+    23.411s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click to see screenshot
+                                <a target = "_blank" href=C:\Users\nisha\IdeaProjects\Com-tutorialsninja-sw-5/test-output/html/verifyThatUserRegisterAccountSuccessfullyTue_Jul_18_17_56_48_BST_2023.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\nisha\IdeaProjects\Com-tutorialsninja-sw-5/test-output/html/verifyThatUserRegisterAccountSuccessfullyTue_Jul_18_17_56_48_BST_2023.jpg><img src=C:\Users\nisha\IdeaProjects\Com-tutorialsninja-sw-5/test-output/html/verifyThatUserRegisterAccountSuccessfullyTue_Jul_18_17_56_48_BST_2023.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[contains(text(),&apos;Your Account Has Been Created!&apos;)]&quot;}<br/>
+&nbsp; (Session info: chrome=114.0.5735.199)<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [cf7e1d0e3cea356c719fc51e3238454d, findElement {using=xpath, value=//h1[contains(text(),&apos;Your Account Has Been Created!&apos;)]}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\nisha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52726}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52726/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: cf7e1d0e3cea356c719fc51e3238454d</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br />
+              com.sun.proxy.$Proxy16.getText(Unknown Source)<br />
+              Com.tutorialsninja.utility.Utility.getTextFromElement(Utility.java:69)<br />
+              Com.tutorialsninja.utility.Utility.assertVerifyText(Utility.java:382)<br />
+              Com.tutorialsninja.pages.RegisterPage.verifySuccessMessage(RegisterPage.java:89)<br />
+              Com.tutorialsninja.testsuite.MyAccountTest.verifyThatUserRegisterAccountSuccessfully(MyAccountTest.java:69)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">Com.tutorialsninja.testsuite.DesktopsTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductArrangeInAlphaBaticalOrder
+      </td>
+  <td class="duration">
+    3.575s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">Com.tutorialsninja.testsuite.LaptopsAndNotebooksTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductsPriceDisplayHighToLowSuccessfully
+      </td>
+  <td class="duration">
+    2.055s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyThatUserPlaceOrderSuccessfully
+      </td>
+  <td class="duration">
+    10.352s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">Com.tutorialsninja.testsuite.MyAccountTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserShouldLoginAndLogoutSuccessfully
+      </td>
+  <td class="duration">
+    3.970s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLoginPageSuccessfully
+      </td>
+  <td class="duration">
+    1.741s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToRegisterPageSuccessfully
+      </td>
+  <td class="duration">
+    1.658s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">Com.tutorialsninja.testsuite.TopMenuTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToComponentsPageSuccessfully
+      </td>
+  <td class="duration">
+    1.734s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToDesktopsPageSuccessfully
+      </td>
+  <td class="duration">
+    1.702s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully
+      </td>
+  <td class="duration">
+    1.647s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
